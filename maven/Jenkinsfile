@@ -20,8 +20,9 @@ pipeline{
             }
         }
     }
-    post_
+    post{
         success{
             bat java -jar %jarLocation%
         }
+}
 }
